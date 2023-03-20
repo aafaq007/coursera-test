@@ -1,0 +1,46 @@
+h1 {
+  background-color: #d790c3;
+  color: rgb(3, 82, 146);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 294px;
+  margin-top: 6px;
+  text-align: center;
+}
+table {
+  border-collapse: collapse;
+}
+td,
+th {
+  border: 1px solid black;
+  text-align: center;
+  padding: 3px;
+}
+th {
+  background-color: rgb(230, 127, 127);
+}
+tr {
+  background-color: rgb(238, 210, 210);
+}
+tr:nth-child(2) {
+  background-color: rgb(162, 209, 123);
+}
+.button {
+  background-color: rgb(227, 181, 181);
+  margin: 5px;
+  padding-left: 2px;
+  border-radius: 3px;
+}
+.button:hover {
+  background-color: rgb(208, 103, 103);
+}
+body {
+  background-color: rgb(212, 212, 164);
+}
+#adults,
+#children {
+  background-color: #d790c3;
+}
+.navbar li a {
+  text-decoration: none;
+}
