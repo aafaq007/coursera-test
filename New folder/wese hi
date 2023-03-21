@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
     <style>
         body {
@@ -12,19 +12,32 @@
             font-size: 16px;
             margin: 0;
             padding: 0;
+            background-color: #f2ecbf;
+            margin-left: 9px;
+            margin-right: 9px;
         }
 
         h1 {
+            padding-bottom: 30px;
+            padding-top: 30px;
+            border-radius: 10px;
             font-size: 32px;
             margin-top: 20px;
-            margin-bottom: 20px;
+            margin-bottom: 50px;
             text-align: center;
+            background-color: rgb(246, 162, 18);
         }
 
         h2 {
+            text-align: center;
+
+        }
+
+        h3 {
             font-size: 24px;
             margin-top: 20px;
             margin-bottom: 20px;
+
         }
 
         ul {
@@ -44,16 +57,16 @@
 
         /* Style for the summary section */
         .summary {
-            background-color: #c1bfe8;
+            background-color: #ffc518;
             border-radius: 10px;
-            padding: 20px;
+            padding: 15px;
         }
 
         /* Style for the experience section */
         .experience {
-            background-color: #e6eab6;
+            background-color: #ffc518;
             border-radius: 10px;
-            padding: 20px;
+            padding: 15px;
         }
 
         .experience h3 {
@@ -62,9 +75,9 @@
 
         /* Style for the education section */
         .education {
-            background-color: #f2a5a5;
+            background-color: #ffc518;
             border-radius: 10px;
-            padding: 20px;
+            padding: 15px;
         }
 
         .education h3 {
@@ -73,9 +86,9 @@
 
         /* Style for the skills section */
         .skills {
-            background-color: #f2f2f2;
+            background-color: #ffc518;
             border-radius: 10px;
-            padding: 20px;
+            padding: 15px;
         }
 
         .skills h3 {
@@ -100,47 +113,38 @@
 <body>
     <h1>John Doe</h1>
     <section>
-        <h2>Summary</h2>
+        <h2 class="summary">Summary</h2>
         <p>A highly motivated individual with over 5 years of experience in the IT industry. Skilled in web development,
             database management, and project management.</p>
     </section>
     <section>
-        <h2>Experience</h2>
+        <h2 class="experience">Experience</h2>
         <ul>
-            <li>
-                <h3>Web Developer</h3>
-                <p>ABC Company, Jan 2019 - Present</p>
-                <ul>
-                    <li>Designed and developed responsive websites using HTML, CSS, and JavaScript.</li>
-                    <li>Collaborated with a team of developers to create custom web applications.</li>
-                    <li>Implemented SEO strategies to improve website visibility and increase traffic.</li>
-                </ul>
-            </li>
-            <li>
-                <h3>Database Administrator</h3>
-                <p>XYZ Corporation, Jan 2016 - Dec 2018</p>
-                <ul>
-                    <li>Managed and maintained company databases using SQL Server and Oracle.</li>
-                    <li>Implemented backup and recovery strategies
-
-                    </li>
-                    <li>Designed and optimized database queries to improve system performance.</li>
-                    <li>Created data models and ER diagrams for new projects.</li>
-                </ul>
-            </li>
+            <h3>Web Developer</h3>
+            <p>ABC Company, Jan 2019 - Present</p>
+            <ul>
+                <li>Designed and developed responsive websites using HTML, CSS, and JavaScript.</li>
+                <li>Collaborated with a team of developers to create custom web applications.</li>
+                <li>Implemented SEO strategies to improve website visibility and increase traffic.</li>
+            </ul>
+            <h3>Database Administrator</h3>
+            <p>XYZ Corporation, Jan 2016 - Dec 2018</p>
+            <ul>
+                <li>Managed and maintained company databases using SQL Server and Oracle.</li>
+                <li>Implemented backup and recovery strategies
+                </li>
+                <li>Designed and optimized database queries to improve system performance.</li>
+                <li>Created data models and ER diagrams for new projects.</li>
+            </ul>
         </ul>
     </section>
     <section>
-        <h2>Education</h2>
-        <ul>
-            <li>
-                <h3>Bachelor of Science in Computer Science</h3>
-                <p>University of ABC, 2015</p>
-            </li>
-        </ul>
+        <h2 class="education">Education</h2>
+        <h3>Bachelor of Science in Computer Science</h3>
+        <p>University of ABC, 2015</p>
     </section>
     <section>
-        <h2>Skills</h2>
+        <h2 class="skills">Skills</h2>
         <ul>
             <li>Web development: HTML, CSS, JavaScript, jQuery, Bootstrap</li>
             <li>Database management: SQL Server, Oracle, MySQL</li>
